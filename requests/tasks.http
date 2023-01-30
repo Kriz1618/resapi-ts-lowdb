@@ -8,6 +8,6 @@ POST {{api}}/tasks
 Content-Type: application/json
 
 {
-  "name": "my first task",
-  "description": "I have to do something"
+  "name": "my second task",
+  "description": "Learn Python"
 }

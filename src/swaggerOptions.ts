@@ -1,6 +1,6 @@
 export const options = {
     definition: {
-      openapi: "3.0.0",
+      openapi: "3.0.2",
       info: {
         title: "Tasks API",
         version: "1.0.0",
@@ -12,6 +12,6 @@ export const options = {
         },
       ],
     },
-    apis: ["./src/routes/*.ts"],
+    apis: ["./src/routes/*.docs.ts"],
   };
   
